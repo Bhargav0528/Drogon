@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bhargav.drogon.MainActivity">
+<ImageView
+    android:id="@+id/image123"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+     android:src="@drawable/binarycov"
+    android:layout_centerHorizontal="true"
+    />
+    <EditText
+        android:id="@+id/text123"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="33dp"
+        />
+    <Button
+        android:id="@+id/button123"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Convert"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="150dp"
+        android:onClick="Bhargav"
+        />
+
+</RelativeLayout>
+
