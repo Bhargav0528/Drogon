@@ -27,7 +27,7 @@ public class ShowBinary extends AppCompatActivity {
 
         if(a==0)
         {
-            bin="0000";
+            bin="000";
         }
         else if(a==1) {
             bin = "0001";
